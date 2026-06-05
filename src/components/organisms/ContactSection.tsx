@@ -67,7 +67,7 @@ export function ContactSection() {
           <form
             onSubmit={handleSubmit}
             name="contact"
-            data-netlify="true"
+            {...({ netlify: '' } as object)}
             className="bg-surface-alt rounded-2xl p-8 flex flex-col gap-5 shadow-sm"
           >
             <input type="hidden" name="form-name" value="contact" />
