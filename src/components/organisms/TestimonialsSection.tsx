@@ -15,7 +15,7 @@ export function TestimonialsSection() {
             Testimonials
           </p>
           <h2 className="font-heading text-4xl md:text-5xl text-primary">
-            What People Are Saying About My Work?
+            What Are People Saying About My Work?
           </h2>
         </div>
 

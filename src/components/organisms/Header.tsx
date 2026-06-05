@@ -11,6 +11,7 @@ export function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
+          <img width={30} src="/favicon.svg" alt="" />
           {navItems.map((item) => (
             <NavLink key={item.path} to={item.path}>
               {item.label}
