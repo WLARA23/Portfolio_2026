@@ -270,4 +270,28 @@ export const projects: Project[] = [
     ],
     technologies: ['Inkscape', 'Figma'],
   },
+  {
+    id: '10',
+    title: 'aMonchar!',
+    categories: ['Development', 'UX/UI Design', 'Mobile App'],
+    bgColor: '#976d13',
+    image: '/images/projects/amonchar.png',
+    year: '2021',
+    role: 'Developer & Logo Designer',
+    client: 'Universidad de Costa Rica (UCR)',
+    duration: '3 months',
+    overview:
+      'aMonchar! is an Android recipe book app where users can register, upload their own recipes, and browse a shared catalog organized by category. The project combined full Android development with external API integration, a cloud NoSQL database, and a user account system — plus a logo designed from scratch.',
+    challenge:
+      'The goal was to build a complete Android app with user authentication, cloud data persistence, and external API connectivity while keeping the interface lightweight and visually driven. Handling Android permissions, syncing data across devices through Firebase, and designing a youthful identity that made the app feel inviting rather than utilitarian were the core challenges.',
+    solution:
+      'A minimal, highly visual UI was paired with Firebase as the cloud NoSQL backend, enabling real-time recipe sharing across all users from any device with an internet connection. Each user gets a profile to manage their account, submit new recipes, and build a personalized weekly meal plan. Multiple search modes — by title, by category, and by ingredient — were implemented to cover different discovery needs. The app logo and launcher icon were also designed in-house.',
+    results: [
+      'Full recipe-sharing platform with user accounts, Firebase real-time sync, and external API integration',
+      'Three search modes implemented: by title match, by category, and by ingredient within a recipe',
+      'Weekly meal planning feature built into the user profile',
+      'App logo and launcher icon designed from scratch alongside the development work',
+    ],
+    technologies: ['Java', 'Android Studio', 'Firebase', 'Inkscape'],
+  },
 ];

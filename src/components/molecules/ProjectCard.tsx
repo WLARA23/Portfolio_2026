@@ -10,7 +10,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     <Link to={`/portfolio/${project.id}`} className="block">
     <article className="group relative overflow-hidden rounded-2xl cursor-pointer">
       {/* Card background */}
-      <div className="w-full h-75 overflow-hidden" style={{ backgroundColor: project.bgColor }}>
+      <div className="w-full overflow-hidden" style={{ backgroundColor: project.bgColor }}>
         {project.image ? (
           <img
             src={project.image}
